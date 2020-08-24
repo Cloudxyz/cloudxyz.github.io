@@ -1,0 +1,90 @@
+.logo {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.link-wa {
+  position: fixed;
+  bottom: 0px;
+  right: 5px;
+  z-index: 999;
+}
+
+.icon-wa {
+  width: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio_thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio_thumb img {
+  width: 50% !important;
+  height: auto !important;
+}
+
+.header-area .main-header-area.sticky {
+  background: #191a1e;
+}
+
+.footer {
+  background: #191a1e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.portfolio_image_area .single_Portfolio .portfolio_hover .title {
+  top: 80%;
+}
+
+.boxed-btn3 {
+  background: #28b3dd;
+}
+
+.boxed-btn3:hover {
+  border: 1px solid #28b3dd;
+  color: #28b3dd !important;
+  background: transparent;
+}
+
+.icon-header a {
+  color: #fff;
+}
+
+.icons-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio_image_area .single_Portfolio .portfolio_hover {
+  background: rgb(0 161 255 / 60%);
+}
+
+.service_area .single_service:hover {
+  border: 1px solid #28b3dd;
+}
+
+.icon {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .header-area .main-header-area {
+    padding: 10px 0px;
+    background: #191a1e;
+  }
+}
+
+@media (max-width: 479px) {
+  .icons-header {
+    width: 50%;
+  }
+}
