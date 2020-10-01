@@ -76,10 +76,44 @@
   margin: 0 auto;
 }
 
-@media (max-width: 767px) {
+.mobile_menu {
+  width: 100%;
+  right: 0;
+}
+
+.slicknav_menu .slicknav_nav {
+  background-color: #191a1e;
+  width: 100%;
+  border-bottom: 0;
+}
+
+.slicknav_menu .slicknav_nav a.active {
+  color: #ffd400;
+}
+
+.slicknav_nav li a {
+  color: #fff;
+  padding: 20px 10px;
+  transition: all ease 0.5s;
+}
+
+.slicknav_nav li a:hover {
+  background-color: #fff;
+  color: #191a1e;
+}
+
+.slicknav_btn {
+  top: -40px;
+}
+
+@media (max-width: 768px) {
   .header-area .main-header-area {
-    padding: 10px 0px;
+    padding: 30px 0px;
     background: #191a1e;
+  }
+  .icons-header {
+    width: 30%;
+    padding: 20px;
   }
 }
 
