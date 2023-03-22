@@ -1,0 +1,9 @@
+.c--btn-other-projects{
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.c--btn-other-projects:hover{
+    color: #28e98c;
+}
